@@ -41,6 +41,9 @@ section input {
   margin: 10px auto 0;
   text-align: center;
 }
+.middle {
+  text-align: center;
+}
 .submit {
   border: 1px solid gray;
   background: lightgray;
@@ -51,4 +54,8 @@ section input {
       -ms-user-select: none;
           user-select: none;
   cursor: pointer;
+}
+.description {
+  font-style: italic;
+  font-size: 0.8em;
 }
