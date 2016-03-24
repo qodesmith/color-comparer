@@ -21,7 +21,8 @@ section {
     width: 80%;
     height: 40vh;
     margin: 0 auto;
-    background: lightgray;
+    border: 1px solid black;
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.7);
     border-radius: 4px;
   }
 
@@ -52,6 +53,11 @@ section {
   padding: 10px;
   user-select: none;
   cursor: pointer;
+
+  &.active {
+    background: black;
+    color: white;
+  }
 }
 
 .description {
